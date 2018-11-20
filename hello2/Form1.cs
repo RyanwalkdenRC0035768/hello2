@@ -24,7 +24,12 @@ namespace hello2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            messagebox.  show(hllo).
+            MessageBox.Show("Goodbye"+txtBxName.Text);
+        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
         
         }
     }
